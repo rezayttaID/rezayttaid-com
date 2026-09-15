@@ -1,0 +1,251 @@
+﻿<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="Kredit & Tim Penyusun Rezayttaid Digital — Profil author, developer, dan tech stack yang digunakan." />
+  <meta name="theme-color" content="#c0392b" />
+
+  <meta property="og:title" content="Kredit & Tim — Rezayttaid Digital" />
+  <meta property="og:description" content="Profil penyusun dan teknologi di balik Rezayttaid Digital." />
+
+  <title>Kredit &amp; Tim — Rezayttaid Digital</title>
+  <link rel="stylesheet" href="style.css" />
+  <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>📖</text></svg>" />
+
+  <style>
+    /* Additional styles specific to credit page */
+    .credit-stats {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(140px, 1fr));
+      gap: 16px;
+      margin-bottom: 40px;
+    }
+
+    .stat-card {
+      background: var(--color-bg-white);
+      border: 1px solid var(--color-border);
+      border-radius: var(--radius-md);
+      padding: 20px 16px;
+      text-align: center;
+    }
+
+    .stat-number {
+      font-family: var(--font-heading);
+      font-size: 36px;
+      font-weight: 900;
+      color: var(--color-primary);
+      line-height: 1;
+      margin-bottom: 6px;
+    }
+
+    .stat-label {
+      font-size: 12px;
+      color: var(--color-text-muted);
+      font-weight: 500;
+      text-transform: uppercase;
+      letter-spacing: 0.5px;
+    }
+
+    .tugas-badge {
+      display: inline-flex;
+      align-items: center;
+      gap: 8px;
+      background: rgba(192,57,43,0.08);
+      border: 1px solid rgba(192,57,43,0.2);
+      color: var(--color-primary);
+      font-size: 12px;
+      font-weight: 700;
+      letter-spacing: 1px;
+      text-transform: uppercase;
+      padding: 6px 14px;
+      border-radius: var(--radius-full);
+      margin-bottom: 20px;
+    }
+  </style>
+</head>
+<body>
+
+  <!-- ====== SITE HEADER ====== -->
+  <header class="site-header" role="banner">
+    <div class="header-top">
+      <div class="header-top-inner">
+        <span class="header-date">Portal Sastra &amp; Budaya</span>
+        <span class="header-tagline-top">✦ Karya Mandiri · Bahasa Indonesia</span>
+      </div>
+    </div>
+    <div class="header-main">
+      <a href="index.html" class="site-logo" aria-label="Beranda Rezayttaid Digital">
+        <span class="logo-name">Rezayttaid<span> Digital</span></span>
+        <span class="logo-tagline">Refleksi Perjuangan dan Keteguhan Hati</span>
+      </a>
+      <nav class="site-nav" aria-label="Navigasi utama">
+        <a href="index.html" class="nav-link">Beranda</a>
+        <a href="portal.html" class="nav-link">Portal Pantun</a>
+        <a href="credit.html" class="nav-link active">Kredit &amp; Tim</a>
+      </nav>
+      <button class="nav-toggle" aria-label="Buka menu" aria-expanded="false">
+        <span></span>
+        <span></span>
+        <span></span>
+      </button>
+    </div>
+  </header>
+
+  <!-- ====== CREDIT HERO ====== -->
+  <section class="credit-hero" aria-labelledby="creditHeroTitle">
+    <div class="credit-hero-inner">
+      <span class="hero-badge">👥 Tim &amp; Kredit</span>
+      <h1 class="credit-title" id="creditHeroTitle">
+        Di Balik <span>Rezayttaid Digital</span>
+      </h1>
+      <p class="credit-subtitle">
+        Karya ini lahir dari dedikasi dalam mengangkat keindahan
+        pantun Nusantara ke platform digital yang modern dan bermakna.
+      </p>
+    </div>
+  </section>
+
+  <!-- ====== MAIN CONTENT ====== -->
+  <main class="credit-main" id="main">
+
+    <!-- Stats -->
+    <div class="credit-stats" role="list" aria-label="Statistik proyek">
+      <div class="stat-card" role="listitem">
+        <div class="stat-number">2</div>
+        <div class="stat-label">Karya Pantun</div>
+      </div>
+      <div class="stat-card" role="listitem">
+        <div class="stat-number">3</div>
+        <div class="stat-label">Halaman Web</div>
+      </div>
+      <div class="stat-card" role="listitem">
+        <div class="stat-number">6</div>
+        <div class="stat-label">Tech Stack</div>
+      </div>
+      <div class="stat-card" role="listitem">
+        <div class="stat-number">∞</div>
+        <div class="stat-label">Semangat</div>
+      </div>
+    </div>
+
+    <!-- ====== PROFILE CARD — AUTHOR ====== -->
+    <section aria-labelledby="authorHeading">
+      <div class="section-heading">
+        <div class="section-heading-bar" aria-hidden="true"></div>
+        <h2 id="authorHeading">Penulis &amp; Developer</h2>
+      </div>
+
+      <div class="profile-card">
+        <div class="profile-avatar" aria-hidden="true">RS</div>
+        <div class="profile-info">
+          <div class="tugas-badge">
+            <span>📚</span> Tugas Bahasa Indonesia
+          </div>
+          <h2>Karya Mandiri</h2>
+          <p class="profile-role">Author · Developer · Penyusun Konten</p>
+          <p class="profile-bio">
+            Proyek <strong>Rezayttaid Digital</strong> ini dibuat sebagai tugas mata pelajaran
+            Bahasa Indonesia, dengan tujuan mengeksplorasi nilai-nilai sastra pantun dalam
+            konteks modern. Seluruh karya pantun, analisis, desain antarmuka, dan pengembangan
+            website dikerjakan secara mandiri sebagai wujud kecintaan terhadap bahasa dan sastra
+            Indonesia. Semoga karya ini memberikan inspirasi dan semangat bagi siapapun yang membacanya.
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <!-- ====== TECH STACK ====== -->
+    <section class="tech-stack-section" aria-labelledby="techHeading">
+      <div class="section-heading">
+        <div class="section-heading-bar" aria-hidden="true"></div>
+        <h2 id="techHeading">Tech Stack yang Digunakan</h2>
+      </div>
+
+      <div class="tech-grid" role="list">
+
+        <div class="tech-item" role="listitem">
+          <span class="tech-icon" aria-hidden="true">🌐</span>
+          <div class="tech-name">HTML5</div>
+          <div class="tech-desc">Struktur &amp; semantik halaman web</div>
+        </div>
+
+        <div class="tech-item" role="listitem">
+          <span class="tech-icon" aria-hidden="true">🎨</span>
+          <div class="tech-name">CSS3</div>
+          <div class="tech-desc">Desain, animasi, &amp; responsivitas</div>
+        </div>
+
+        <div class="tech-item" role="listitem">
+          <span class="tech-icon" aria-hidden="true">⚡</span>
+          <div class="tech-name">JavaScript ES6</div>
+          <div class="tech-desc">Interaktivitas &amp; fitur dinamis</div>
+        </div>
+
+        <div class="tech-item" role="listitem">
+          <span class="tech-icon" aria-hidden="true">🟢</span>
+          <div class="tech-name">Node.js</div>
+          <div class="tech-desc">Runtime &amp; ekosistem development</div>
+        </div>
+
+        <div class="tech-item" role="listitem">
+          <span class="tech-icon" aria-hidden="true">▲</span>
+          <div class="tech-name">Vercel Hosting</div>
+          <div class="tech-desc">Platform deploy &amp; CDN global</div>
+        </div>
+
+        <div class="tech-item" role="listitem">
+          <span class="tech-icon" aria-hidden="true">🤖</span>
+          <div class="tech-name">Kiro.ai</div>
+          <div class="tech-desc">AI-powered development assistant</div>
+        </div>
+
+      </div>
+    </section>
+
+    <!-- ====== CLOSING MESSAGE ====== -->
+    <section aria-labelledby="closingHeading" style="margin-top: 48px;">
+      <div class="closing-card">
+        <p class="closing-quote" id="closingHeading">
+          "Bangsa yang besar adalah bangsa yang<br>
+          tidak melupakan sejarah dan budayanya."
+        </p>
+        <div class="closing-divider" aria-hidden="true"></div>
+        <p class="closing-text">
+          Proyek <strong style="color:#fff;">Rezayttaid Digital</strong> ini dipersembahkan
+          sebagai tugas mata pelajaran Bahasa Indonesia. Melalui platform ini, kami ingin
+          membuktikan bahwa karya sastra tradisional seperti pantun bisa hadir dalam wujud
+          yang modern, menarik, dan tetap sarat makna — relevan untuk generasi digital saat ini.
+        </p>
+        <p class="closing-text" style="margin-bottom: 32px; font-style: italic; color: rgba(255,255,255,0.5); font-size: 13px;">
+          Terima kasih telah mengunjungi portal ini. Semoga setiap kata memberi<br>
+          semangat dan inspirasi untuk terus melangkah maju.
+        </p>
+        <div class="cta-buttons">
+          <a href="portal.html" class="btn btn-primary">
+            📖 Baca Karya Pantun
+          </a>
+          <a href="index.html" class="btn btn-secondary">
+            ← Kembali ke Beranda
+          </a>
+        </div>
+      </div>
+    </section>
+
+  </main>
+
+  <!-- ====== FOOTER ====== -->
+  <footer class="site-footer" role="contentinfo">
+    <div class="footer-inner">
+      <div class="footer-logo">Rezayttaid<span> Digital</span> Digital</div>
+      <p class="footer-text">
+        &copy; 2025 Rezayttaid Digital · Tugas Bahasa Indonesia · Karya Mandiri
+      </p>
+    </div>
+  </footer>
+
+  <button class="scroll-top" id="scrollTop" aria-label="Kembali ke atas">↑</button>
+
+  <script src="main.js"></script>
+</body>
+</html>
